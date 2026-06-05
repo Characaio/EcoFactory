@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\chara\\BigProjects\\EcoFactory\\CoreSimulator\\CoreSimulator\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AF227CAE-D997-9C41-BEA0-8D68C5F1EFB7}|CoreSimulator\\CoreSimulator.csproj|c:\\users\\chara\\bigprojects\\ecofactory\\coresimulator\\coresimulator\\coresimulator\\simulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF227CAE-D997-9C41-BEA0-8D68C5F1EFB7}|CoreSimulator\\CoreSimulator.csproj|solutionrelative:coresimulator\\simulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AF227CAE-D997-9C41-BEA0-8D68C5F1EFB7}|CoreSimulator\\CoreSimulator.csproj|c:\\users\\chara\\bigprojects\\ecofactory\\coresimulator\\coresimulator\\coresimulator\\comandos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF227CAE-D997-9C41-BEA0-8D68C5F1EFB7}|CoreSimulator\\CoreSimulator.csproj|solutionrelative:coresimulator\\comandos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AF227CAE-D997-9C41-BEA0-8D68C5F1EFB7}|CoreSimulator\\CoreSimulator.csproj|c:\\users\\chara\\bigprojects\\ecofactory\\coresimulator\\coresimulator\\coresimulator\\oregrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF227CAE-D997-9C41-BEA0-8D68C5F1EFB7}|CoreSimulator\\CoreSimulator.csproj|solutionrelative:coresimulator\\oregrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF227CAE-D997-9C41-BEA0-8D68C5F1EFB7}|CoreSimulator\\CoreSimulator.csproj|c:\\users\\chara\\bigprojects\\ecofactory\\coresimulator\\coresimulator\\coresimulator\\simulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF227CAE-D997-9C41-BEA0-8D68C5F1EFB7}|CoreSimulator\\CoreSimulator.csproj|solutionrelative:coresimulator\\simulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AF227CAE-D997-9C41-BEA0-8D68C5F1EFB7}|CoreSimulator\\CoreSimulator.csproj|c:\\users\\chara\\bigprojects\\ecofactory\\coresimulator\\coresimulator\\coresimulator\\teams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,24 +62,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Comandos.cs",
               "DocumentMoniker": "C:\\Users\\chara\\BigProjects\\EcoFactory\\CoreSimulator\\CoreSimulator\\CoreSimulator\\Comandos.cs",
               "RelativeDocumentMoniker": "CoreSimulator\\Comandos.cs",
               "ToolTip": "C:\\Users\\chara\\BigProjects\\EcoFactory\\CoreSimulator\\CoreSimulator\\CoreSimulator\\Comandos.cs",
               "RelativeToolTip": "CoreSimulator\\Comandos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T02:11:35.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-03T02:11:35.618Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Estruturas.cs",
               "DocumentMoniker": "C:\\Users\\chara\\BigProjects\\EcoFactory\\CoreSimulator\\CoreSimulator\\CoreSimulator\\Estruturas.cs",
               "RelativeDocumentMoniker": "CoreSimulator\\Estruturas.cs",
@@ -87,12 +86,11 @@
               "RelativeToolTip": "CoreSimulator\\Estruturas.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAIwB0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T02:11:25.002Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-03T02:11:25.002Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Vector2.cs",
               "DocumentMoniker": "C:\\Users\\chara\\BigProjects\\EcoFactory\\CoreSimulator\\CoreSimulator\\CoreSimulator\\Utils\\Vector2.cs",
               "RelativeDocumentMoniker": "CoreSimulator\\Utils\\Vector2.cs",
@@ -100,12 +98,11 @@
               "RelativeToolTip": "CoreSimulator\\Utils\\Vector2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T01:30:30.934Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-03T01:30:30.934Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AbstractConveyor.cs",
               "DocumentMoniker": "C:\\Users\\chara\\BigProjects\\EcoFactory\\CoreSimulator\\CoreSimulator\\CoreSimulator\\Blocks\\AbstractConveyor.cs",
               "RelativeDocumentMoniker": "CoreSimulator\\Blocks\\AbstractConveyor.cs",
@@ -113,8 +110,7 @@
               "RelativeToolTip": "CoreSimulator\\Blocks\\AbstractConveyor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T01:29:32.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-03T01:29:32.957Z"
             },
             {
               "$type": "Document",
@@ -126,8 +122,7 @@
               "RelativeToolTip": "CoreSimulator\\Blocks\\AbstractCore.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T01:28:43.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-03T01:28:43.834Z"
             },
             {
               "$type": "Document",
@@ -139,8 +134,7 @@
               "RelativeToolTip": "CoreSimulator\\Blocks\\AbstractFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T01:28:40.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-03T01:28:40.564Z"
             },
             {
               "$type": "Document",
@@ -152,12 +146,11 @@
               "RelativeToolTip": "CoreSimulator\\Blocks\\AbstractDrill.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T01:28:35.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-03T01:28:35.313Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Block.cs",
               "DocumentMoniker": "C:\\Users\\chara\\BigProjects\\EcoFactory\\CoreSimulator\\CoreSimulator\\CoreSimulator\\Blocks\\Block.cs",
               "RelativeDocumentMoniker": "CoreSimulator\\Blocks\\Block.cs",
@@ -165,21 +158,19 @@
               "RelativeToolTip": "CoreSimulator\\Blocks\\Block.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T01:28:27.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-03T01:28:27.507Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "CoreSimulator",
+              "Title": "CoreSimulator.csproj",
               "DocumentMoniker": "C:\\Users\\chara\\BigProjects\\EcoFactory\\CoreSimulator\\CoreSimulator\\CoreSimulator\\CoreSimulator.csproj",
               "RelativeDocumentMoniker": "CoreSimulator\\CoreSimulator.csproj",
               "ToolTip": "C:\\Users\\chara\\BigProjects\\EcoFactory\\CoreSimulator\\CoreSimulator\\CoreSimulator\\CoreSimulator.csproj",
               "RelativeToolTip": "CoreSimulator\\CoreSimulator.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-03T01:27:16.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-03T01:27:16.46Z"
             },
             {
               "$type": "Document",
@@ -191,12 +182,11 @@
               "RelativeToolTip": "CoreSimulator\\Teams.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T01:28:02.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-03T01:28:02.222Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "OreGrid.cs",
               "DocumentMoniker": "C:\\Users\\chara\\BigProjects\\EcoFactory\\CoreSimulator\\CoreSimulator\\CoreSimulator\\OreGrid.cs",
               "RelativeDocumentMoniker": "CoreSimulator\\OreGrid.cs",
@@ -204,12 +194,11 @@
               "RelativeToolTip": "CoreSimulator\\OreGrid.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T01:27:55.069Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-03T01:27:55.069Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "MapGrid.cs",
               "DocumentMoniker": "C:\\Users\\chara\\BigProjects\\EcoFactory\\CoreSimulator\\CoreSimulator\\CoreSimulator\\MapGrid.cs",
               "RelativeDocumentMoniker": "CoreSimulator\\MapGrid.cs",
@@ -217,18 +206,17 @@
               "RelativeToolTip": "CoreSimulator\\MapGrid.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T01:27:50.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-03T01:27:50.006Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Simulation.cs",
               "DocumentMoniker": "C:\\Users\\chara\\BigProjects\\EcoFactory\\CoreSimulator\\CoreSimulator\\CoreSimulator\\Simulation.cs",
               "RelativeDocumentMoniker": "CoreSimulator\\Simulation.cs",
               "ToolTip": "C:\\Users\\chara\\BigProjects\\EcoFactory\\CoreSimulator\\CoreSimulator\\CoreSimulator\\Simulation.cs",
               "RelativeToolTip": "CoreSimulator\\Simulation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-03T01:27:30.497Z",
               "EditorCaption": ""

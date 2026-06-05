@@ -6,16 +6,31 @@ using System.Text;
 
 namespace CoreSimulator
 {
-    public class Comandos
+    public static class Comandos
     {
 
-        public void place_block()
+
+        public static void place_block(Block bloco)
         {
-            Estruturas.set_block(new Block(
-                new Vector2(2, 2),
-                Block.Tamanho2x2,
-                "Esteira"
-                ));
+            Estruturas.set_block(
+                bloco
+                );
+        }
+        public static String read_block()
+        {
+            Block bloco = Estruturas.get_block(new Vector2i(2, 2));
+            return bloco.TipoDeBloco + bloco.IdDoBloco.ToString();
+        }
+        public static String read_all_blocks()
+        {
+            String result = "";
+            Console.WriteLine("All Keys: "+Estruturas.EstruturasDict.Keys.ToArray().ToString());
+            foreach (var key in Estruturas.EstruturasDict.Keys)
+            {
+                var bloco = Estruturas.EstruturasDict[key];
+                result += $"Block at {key}: {bloco.TipoDeBloco}+{bloco.IdDoBloco}\n";
+            }
+            return result;
 
         }
     }

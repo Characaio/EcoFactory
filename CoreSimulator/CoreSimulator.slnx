@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/CoreRunner/">
+    <Project Path="CoreRunner/CoreRunner/CoreRunner.csproj" />
+  </Folder>
+  <Folder Name="/CoreSimulator/">
+    <Project Path="CoreSimulator/CoreSimulator/CoreSimulator.csproj" />
+  </Folder>
+</Solution>

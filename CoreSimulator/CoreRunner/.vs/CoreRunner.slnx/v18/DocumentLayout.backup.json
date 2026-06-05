@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\chara\\source\\repos\\CoreRunner\\",
+  "WorkspaceRootPath": "C:\\Users\\chara\\BigProjects\\EcoFactory\\CoreSimulator\\CoreRunner\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B9F9332-5267-444F-8DC7-D0B2B6E33272}|CoreRunner\\CoreRunner.csproj|c:\\users\\chara\\source\\repos\\corerunner\\corerunner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B9F9332-5267-444F-8DC7-D0B2B6E33272}|CoreRunner\\CoreRunner.csproj|solutionrelative:corerunner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BD11495F-D23D-1478-5A6E-7105032E4D35}|CoreRunner\\CoreRunner.csproj|c:\\users\\chara\\bigprojects\\ecofactory\\coresimulator\\corerunner\\corerunner\\corerunner.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BD11495F-D23D-1478-5A6E-7105032E4D35}|CoreRunner\\CoreRunner.csproj|solutionrelative:corerunner\\corerunner.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD11495F-D23D-1478-5A6E-7105032E4D35}|CoreRunner\\CoreRunner.csproj|c:\\users\\chara\\bigprojects\\ecofactory\\coresimulator\\corerunner\\corerunner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD11495F-D23D-1478-5A6E-7105032E4D35}|CoreRunner\\CoreRunner.csproj|solutionrelative:corerunner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\chara\\source\\repos\\CoreRunner\\CoreRunner\\Program.cs",
-              "RelativeDocumentMoniker": "CoreRunner\\Program.cs",
-              "ToolTip": "C:\\Users\\chara\\source\\repos\\CoreRunner\\CoreRunner\\Program.cs",
-              "RelativeToolTip": "CoreRunner\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T00:59:09.672Z",
+              "Title": "CoreRunner.csproj",
+              "DocumentMoniker": "C:\\Users\\chara\\BigProjects\\EcoFactory\\CoreSimulator\\CoreRunner\\CoreRunner\\CoreRunner.csproj",
+              "RelativeDocumentMoniker": "CoreRunner\\CoreRunner.csproj",
+              "ToolTip": "C:\\Users\\chara\\BigProjects\\EcoFactory\\CoreSimulator\\CoreRunner\\CoreRunner\\CoreRunner.csproj",
+              "RelativeToolTip": "CoreRunner\\CoreRunner.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-04T00:34:22.125Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\chara\\BigProjects\\EcoFactory\\CoreSimulator\\CoreRunner\\CoreRunner\\Program.cs",
+              "RelativeDocumentMoniker": "CoreRunner\\Program.cs",
+              "ToolTip": "C:\\Users\\chara\\BigProjects\\EcoFactory\\CoreSimulator\\CoreRunner\\CoreRunner\\Program.cs",
+              "RelativeToolTip": "CoreRunner\\Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T00:59:09.672Z"
             }
           ]
         }

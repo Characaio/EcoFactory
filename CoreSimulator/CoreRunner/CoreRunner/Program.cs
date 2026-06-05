@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using CoreSimulator;
+
+class Program
+{
+    static void Main()
+    {
+        Simulation sumaltion = new Simulation();
+        sumaltion.Start();
+    }
+}
