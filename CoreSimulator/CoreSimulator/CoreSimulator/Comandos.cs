@@ -12,7 +12,13 @@ namespace CoreSimulator
 
         public static void place_block(Block bloco)
         {
-            Estruturas.set_block(
+            if (!bloco.valido)
+            {
+                Console.WriteLine("Posição invalida para o bloco.");
+                return;
+            }
+            Console.WriteLine("Posição valida para o bloco");
+            Estruturas.colocar_bloco(
                 bloco
                 );
         }
@@ -32,6 +38,14 @@ namespace CoreSimulator
             }
             return result;
 
+        }
+        public static String read_all_bgblocks()
+        {   
+            return MapGrid.ReadMapa();
+        }
+        public static String read_all_ores()
+        {
+            return OreGrid.read_ores();
         }
     }
 }

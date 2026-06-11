@@ -29,24 +29,26 @@ namespace CoreSimulator.Blocks
         public long IdDoBloco;
         public List<Vector2i> posições = new List<Vector2i>();
         public String TipoDeBloco;
-        
+        public bool valido;
         public Block(Vector2i posição, String tipoDeBloco,int _tamanho)
         {
-            bool valido = true;
+            valido = true;
 
             Tamanho = TAMANHOS[_tamanho];
 
             foreach (Vector2i tam in Tamanho)
             {
                 Vector2i posFinal = posição + tam;
+                valido = Estruturas.Pode_Colocar_Bloco(posFinal);
+                if (!valido)
+                {
+                    return;
+                }
                 this.posições.Add(posFinal);
             }
             
 
-            foreach (Vector2i pos in posições)
-            {
-                Estruturas.Adicionar_posição(pos, this);
-            }
+            
 
             this.TipoDeBloco = tipoDeBloco;
             this.IdDoBloco = BlockId;

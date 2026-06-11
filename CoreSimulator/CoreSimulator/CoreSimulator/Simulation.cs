@@ -13,10 +13,15 @@ namespace CoreSimulator
         public long tickCount = 0;
         public bool IsRunning { get; private set; } = true;
         public bool debug { get; private set; } = false;
-        public String HelpString = "Available commands:Gerar Mapa, Place Block, Read Block, Read All Blocks exit, stop, start, debug, help";
+        public String HelpString = "Available commands:Gerar Mapa, Place Block, Read Block, Read All Ores, Read All BgBlocks, Read All Blocks exit, stop, start, debug, help";
+        //public MapGrid mapgrid = new MapGrid();
+        public Vector2i GridSize = new Vector2i(10,10);
         public void Start()
         {
             Console.WriteLine(HelpString);
+
+            MapGrid.CriarMapa(GridSize);
+            OreGrid.create_ore_grid(GridSize);
 
             Thread SimulatorThread = new Thread(Simulation_Loop);
             SimulatorThread.Start();
@@ -77,7 +82,7 @@ namespace CoreSimulator
                     int _blockSize = int.Parse(Console.ReadLine());
                     Comandos.place_block(new Block(pos, _blockType, _blockSize));
 
-                    Console.WriteLine("Block placed at " + pos.ToString());
+                    
                     break;
                 case "read block":
                     String blockType = Comandos.read_block();
@@ -85,6 +90,12 @@ namespace CoreSimulator
                     break;
                 case "read all blocks":
                     Console.WriteLine(Comandos.read_all_blocks());
+                    break;
+                case "read all ores":
+                    Console.WriteLine(Comandos.read_all_ores().ToLower());
+                    break;
+                case "read all bgblocks":
+                    Console.WriteLine(Comandos.read_all_bgblocks().ToUpper());
                     break;
                 default:
                     Console.WriteLine("Unknown command: " + Input);

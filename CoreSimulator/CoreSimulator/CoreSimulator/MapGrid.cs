@@ -6,20 +6,38 @@ using System.Text;
 
 namespace CoreSimulator
 {
-    public class MapGrid
+    public static class MapGrid
     {
-        private Dictionary<Vector2i, BgBlock> BgGrid = new Dictionary<Vector2i, BgBlock>();
+        public static BgBlock[,] mapa;
 
-        public void CriarMapa(int largura, int altura)
+        public static void CriarMapa(Vector2i gridSize)
         {
-            for (int x = 0; x < largura; x++)
+            mapa = new BgBlock[gridSize.X, gridSize.Y];
+
+            for (int x = 0; x < gridSize.X; x++)
             {
-                for (int y = 0; y < altura; y++)
+                for (int y = 0; y < gridSize.Y; y++)
                 {
                     Vector2i pos = new Vector2i(x, y);
-                    BgGrid[pos] = new BgBlock();
+                    BgBlock bloco = new BgBlock();
+                    bloco.posicao = pos;
+                    bloco.tipo = BgBlocks.blocos.Shuffle().First();
+                    mapa[x, y] = bloco;
                 }
             }
+        }
+        public static String ReadMapa()
+        {
+            String result = "";
+            for (int x = 0; x < mapa.GetLength(0); x++)
+            {
+                result += "\n";
+                for (int y = 0; y < mapa.GetLength(1); y++)
+                {
+                    result += BgBlocks.converter_nome_para_caractere(mapa[x, y].tipo.NomeDoBloco)+" ";
+                }
+            }
+            return result;
         }
 
     }

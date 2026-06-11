@@ -43,20 +43,14 @@ namespace CoreSimulator
             }
         }
 
-        static public Block set_block(Block bloco)
+        static public void colocar_bloco(Block bloco)
         {
-            bool temBloco = false;
             foreach (Vector2i pos in bloco.posições)
             {
-                if (EstruturasDict.ContainsKey(pos))
-                {
-                    temBloco = true;
-                }
+                EstruturasDict.Add(pos, bloco);
             }
-            if (temBloco)
-            {
-            }
-            return bloco;
+            
+            
         }
     }
 }

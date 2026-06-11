@@ -5,9 +5,10 @@ using System.Text;
 
 namespace CoreSimulator.Blocks
 {
-    public class BgBlock
+    public class BgBlockType
     {
-        public Vector2i posicao { get; set; }
-        public BgBlockType tipo { get; set; }
+        public string NomeDoBloco { get; set; }
+        public bool solido { get; set; }
+        
     }
 }
